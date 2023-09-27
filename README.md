@@ -1,27 +1,11 @@
-# React + TypeScript + Vite
+# ffm-java-23-1-react-props
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Coding: React-Props
 
-Currently, two official plugins are available:
+Die folgende Aufgabe bezieht sich auf die Blog Aufgabe
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+    Schritt 1 : Baut euren Blog so um das eine Blog-Entry Komponente dynamisch mit Props befüllt wird und die Blog-Entry Komponente mehrfach verwendet wird.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+    Schritt 2 : Erstelle eine Komponente profile (die mit der Komponente Blog auf einer Ebene stehen sollte in der App.tsx), die dich als Entwickler*in vorstellt.Wenn du in der letzten Aufgabe (Bonus-Aufgabe) schon eine Profil-Komponente erstellt hast, kannst du diese weiter ausbauen und mit dem neuen Wissen verbessern."
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
