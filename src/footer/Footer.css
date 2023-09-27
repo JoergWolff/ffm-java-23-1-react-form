@@ -1,0 +1,9 @@
+.blog-footer{
+    position: sticky;
+    bottom: 0;
+    background-color: wheat;
+    color: darkgreen;
+    font-size: 1em;
+    margin-bottom: 0.2em;
+
+}

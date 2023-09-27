@@ -1,4 +1,11 @@
-export const USERS = [
+type User = {
+  id: number,
+  name: string,
+  roles: string[],
+  about: string
+}
+
+export const users: User[] = [
   {
     id: 0,
     name: "Herman Webb",
