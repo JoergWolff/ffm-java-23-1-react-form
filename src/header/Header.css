@@ -1,9 +1,12 @@
 .blog-header{
+    display: flex;
+    justify-content: space-between;
     position: sticky;
     top: 0;
     background-color: wheat;
     color: darkgreen;
     font-size: 2em;
+    padding: 0.5em;
     margin-bottom: 0.2em;
     border-radius: 0 0 1em 1em;
 }
